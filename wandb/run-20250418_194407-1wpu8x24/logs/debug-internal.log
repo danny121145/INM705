@@ -1,0 +1,15 @@
+{"time":"2025-04-18T19:44:07.3700829+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\danie\\OneDrive\\Desktop\\INM705\\wandb\\run-20250418_194407-1wpu8x24\\logs\\debug-core.log"}
+{"time":"2025-04-18T19:44:07.5817773+01:00","level":"INFO","msg":"created new stream","id":"1wpu8x24"}
+{"time":"2025-04-18T19:44:07.5817773+01:00","level":"INFO","msg":"stream: started","id":"1wpu8x24"}
+{"time":"2025-04-18T19:44:07.5817773+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"1wpu8x24"}
+{"time":"2025-04-18T19:44:07.5817773+01:00","level":"INFO","msg":"handler: started","stream_id":"1wpu8x24"}
+{"time":"2025-04-18T19:44:07.5817773+01:00","level":"INFO","msg":"sender: started","stream_id":"1wpu8x24"}
+{"time":"2025-04-18T19:44:07.9886166+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T19:44:08.4096894+01:00","level":"INFO","msg":"stream: closing","id":"1wpu8x24"}
+{"time":"2025-04-18T19:44:08.4102325+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T19:44:08.4107559+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T19:44:08.966952+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T19:44:09.1883267+01:00","level":"INFO","msg":"handler: closed","stream_id":"1wpu8x24"}
+{"time":"2025-04-18T19:44:09.1883267+01:00","level":"INFO","msg":"sender: closed","stream_id":"1wpu8x24"}
+{"time":"2025-04-18T19:44:09.1883267+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1wpu8x24"}
+{"time":"2025-04-18T19:44:09.1883267+01:00","level":"INFO","msg":"stream: closed","id":"1wpu8x24"}

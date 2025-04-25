@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "c:\Users\danie\OneDrive\Desktop\INM705\train.py", line 20, in <module>
+    train_dataset = MontgomeryDataset(
+                    ^^^^^^^^^^^^^^^^^^
+  File "c:\Users\danie\OneDrive\Desktop\INM705\dataset.py", line 17, in __init__
+    f for f in os.listdir(img_dir)
+               ^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'r"C:\\Users\\danie\\OneDrive\\Desktop\\INM705\\archive\\Montgomery\\MontgomerySet\\CXR_png"'

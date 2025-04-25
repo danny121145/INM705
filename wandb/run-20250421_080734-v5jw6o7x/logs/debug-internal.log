@@ -1,0 +1,19 @@
+{"time":"2025-04-21T08:07:34.2605308+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\danie\\OneDrive\\Desktop\\INM705\\wandb\\run-20250421_080734-v5jw6o7x\\logs\\debug-core.log"}
+{"time":"2025-04-21T08:07:34.3695191+01:00","level":"INFO","msg":"created new stream","id":"v5jw6o7x"}
+{"time":"2025-04-21T08:07:34.3705513+01:00","level":"INFO","msg":"stream: started","id":"v5jw6o7x"}
+{"time":"2025-04-21T08:07:34.3695191+01:00","level":"INFO","msg":"handler: started","stream_id":"v5jw6o7x"}
+{"time":"2025-04-21T08:07:34.3705513+01:00","level":"INFO","msg":"sender: started","stream_id":"v5jw6o7x"}
+{"time":"2025-04-21T08:07:34.3705513+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"v5jw6o7x"}
+{"time":"2025-04-21T08:07:34.5973639+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-21T09:10:08.9008177+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-21T09:10:08.9018225+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-21T09:10:09.9300925+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model","runtime_seconds":1.0319469,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":0.4349269,"progress":"528.0KB/124.4MB"}]}],"total_operations":1}}
+{"time":"2025-04-21T09:11:10.5566021+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model","runtime_seconds":61.6584565,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":61.0614365,"progress":"45.3MB/124.4MB"}]}],"total_operations":1}}
+{"time":"2025-04-21T09:12:11.1630848+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model","runtime_seconds":122.2649392,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":121.6679192,"progress":"78.4MB/124.4MB"}]}],"total_operations":1}}
+{"time":"2025-04-21T09:13:11.712503+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model","runtime_seconds":182.8143574,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":182.2173374,"progress":"111.1MB/124.4MB"}]}],"total_operations":1}}
+{"time":"2025-04-21T09:13:41.2795101+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-21T09:13:41.7109229+01:00","level":"INFO","msg":"stream: closing","id":"v5jw6o7x"}
+{"time":"2025-04-21T09:13:41.7109229+01:00","level":"INFO","msg":"handler: closed","stream_id":"v5jw6o7x"}
+{"time":"2025-04-21T09:13:41.7109229+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"v5jw6o7x"}
+{"time":"2025-04-21T09:13:41.7109229+01:00","level":"INFO","msg":"sender: closed","stream_id":"v5jw6o7x"}
+{"time":"2025-04-21T09:13:41.7109229+01:00","level":"INFO","msg":"stream: closed","id":"v5jw6o7x"}

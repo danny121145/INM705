@@ -1,0 +1,15 @@
+{"time":"2025-04-21T06:49:31.9738477+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\danie\\OneDrive\\Desktop\\INM705\\wandb\\run-20250421_064931-xm6ilr8u\\logs\\debug-core.log"}
+{"time":"2025-04-21T06:49:32.0833138+01:00","level":"INFO","msg":"created new stream","id":"xm6ilr8u"}
+{"time":"2025-04-21T06:49:32.0838285+01:00","level":"INFO","msg":"stream: started","id":"xm6ilr8u"}
+{"time":"2025-04-21T06:49:32.0838285+01:00","level":"INFO","msg":"handler: started","stream_id":"xm6ilr8u"}
+{"time":"2025-04-21T06:49:32.0838285+01:00","level":"INFO","msg":"sender: started","stream_id":"xm6ilr8u"}
+{"time":"2025-04-21T06:49:32.0838285+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"xm6ilr8u"}
+{"time":"2025-04-21T06:49:32.3191173+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-21T06:58:49.8984628+01:00","level":"INFO","msg":"stream: closing","id":"xm6ilr8u"}
+{"time":"2025-04-21T06:58:49.8984628+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-21T06:58:49.8995065+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-21T06:58:50.4207367+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-21T06:58:50.6049084+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xm6ilr8u"}
+{"time":"2025-04-21T06:58:50.6049084+01:00","level":"INFO","msg":"handler: closed","stream_id":"xm6ilr8u"}
+{"time":"2025-04-21T06:58:50.6049084+01:00","level":"INFO","msg":"sender: closed","stream_id":"xm6ilr8u"}
+{"time":"2025-04-21T06:58:50.6049084+01:00","level":"INFO","msg":"stream: closed","id":"xm6ilr8u"}

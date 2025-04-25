@@ -1,0 +1,15 @@
+data:
+  img_dir: "C:/Users/danie/OneDrive/Desktop/INM705/archive/Montgomery/MontgomerySet/CXR_png"
+  mask_dir: "C:/Users/danie/OneDrive/Desktop/INM705/archive/Montgomery/MontgomerySet/masks"
+  batch_size: 8
+
+model:
+  encoder_name: "resnet50"
+  encoder_weights: "imagenet"
+  in_channels: 3
+  classes: 1
+
+training:
+  epochs: 50
+  lr: 0.0001
+  device: "cuda"

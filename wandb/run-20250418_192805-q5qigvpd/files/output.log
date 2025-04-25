@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "c:\Users\danie\OneDrive\Desktop\INM705\train.py", line 22, in <module>
+    train_loader = torch.utils.data.DataLoader(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 376, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\sampler.py", line 163, in __init__
+    if not isinstance(self.num_samples, int) or self.num_samples <= 0:
+                      ^^^^^^^^^^^^^^^^
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\sampler.py", line 172, in num_samples
+    return len(self.data_source)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'MontgomeryDataset' has no len()

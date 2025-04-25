@@ -1,0 +1,18 @@
+{"time":"2025-04-21T07:30:21.7159333+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\danie\\OneDrive\\Desktop\\INM705\\wandb\\run-20250421_073021-61vogket\\logs\\debug-core.log"}
+{"time":"2025-04-21T07:30:21.8257703+01:00","level":"INFO","msg":"created new stream","id":"61vogket"}
+{"time":"2025-04-21T07:30:21.8257703+01:00","level":"INFO","msg":"stream: started","id":"61vogket"}
+{"time":"2025-04-21T07:30:21.8257703+01:00","level":"INFO","msg":"handler: started","stream_id":"61vogket"}
+{"time":"2025-04-21T07:30:21.8257703+01:00","level":"INFO","msg":"sender: started","stream_id":"61vogket"}
+{"time":"2025-04-21T07:30:21.8257703+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"61vogket"}
+{"time":"2025-04-21T07:30:22.1000979+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-21T07:57:20.9090284+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-21T07:57:20.9090284+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-21T07:57:21.9212867+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model","runtime_seconds":1.0148539,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":0.4169146,"progress":"512.0KB/93.4MB"}]}],"total_operations":1}}
+{"time":"2025-04-21T07:58:22.5807503+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model","runtime_seconds":61.6743297,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":61.0763904,"progress":"32.8MB/93.4MB"}]},{"desc":"uploading data","runtime_seconds":0.0728234}],"total_operations":2}}
+{"time":"2025-04-21T07:59:23.2831677+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model","runtime_seconds":122.3767471,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":121.7788078,"progress":"65.6MB/93.4MB"}]}],"total_operations":1}}
+{"time":"2025-04-21T08:00:16.2689121+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-21T08:00:16.7387462+01:00","level":"INFO","msg":"stream: closing","id":"61vogket"}
+{"time":"2025-04-21T08:00:16.7387462+01:00","level":"INFO","msg":"handler: closed","stream_id":"61vogket"}
+{"time":"2025-04-21T08:00:16.7387462+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"61vogket"}
+{"time":"2025-04-21T08:00:16.7387462+01:00","level":"INFO","msg":"sender: closed","stream_id":"61vogket"}
+{"time":"2025-04-21T08:00:16.7387462+01:00","level":"INFO","msg":"stream: closed","id":"61vogket"}

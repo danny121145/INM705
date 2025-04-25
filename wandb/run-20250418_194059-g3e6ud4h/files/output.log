@@ -1,0 +1,29 @@
+  0%|                                                       | 0/18 [00:01<?, ?it/s]
+Warning: Mask not found at C:\Users\danie\OneDrive\Desktop\INM705rchive\Montgomery\MontgomerySet\masks\MCUCXR_0194_1_left.png
+Warning: Mask not found at C:\Users\danie\OneDrive\Desktop\INM705rchive\Montgomery\MontgomerySet\masks\MCUCXR_0369_1_left.png
+Warning: Mask not found at C:\Users\danie\OneDrive\Desktop\INM705rchive\Montgomery\MontgomerySet\masks\MCUCXR_0035_0_left.png
+Warning: Mask not found at C:\Users\danie\OneDrive\Desktop\INM705rchive\Montgomery\MontgomerySet\masks\MCUCXR_0275_1_left.png
+Warning: Mask not found at C:\Users\danie\OneDrive\Desktop\INM705rchive\Montgomery\MontgomerySet\masks\MCUCXR_0019_0_left.png
+Warning: Mask not found at C:\Users\danie\OneDrive\Desktop\INM705rchive\Montgomery\MontgomerySet\masks\MCUCXR_0311_1_left.png
+Warning: Mask not found at C:\Users\danie\OneDrive\Desktop\INM705rchive\Montgomery\MontgomerySet\masks\MCUCXR_0082_0_left.png
+Warning: Mask not found at C:\Users\danie\OneDrive\Desktop\INM705rchive\Montgomery\MontgomerySet\masks\MCUCXR_0045_0_left.png
+Traceback (most recent call last):
+  File "c:\Users\danie\OneDrive\Desktop\INM705\train.py", line 41, in <module>
+    for images, masks in tqdm(train_loader):
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\_utils\collate.py", line 398, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\_utils\collate.py", line 240, in collate
+    raise TypeError(default_collate_err_msg_format.format(elem_type))
+TypeError: default_collate: batch must contain tensors, numpy arrays, numbers, dicts or lists; found <class 'NoneType'>

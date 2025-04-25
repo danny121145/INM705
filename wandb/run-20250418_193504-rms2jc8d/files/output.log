@@ -1,0 +1,25 @@
+  0%|                                                       | 0/18 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "c:\Users\danie\OneDrive\Desktop\INM705\train.py", line 39, in <module>
+    for images, masks in tqdm(train_loader):
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "c:\Users\danie\OneDrive\Desktop\INM705\dataset.py", line 31, in __getitem__
+    mask = Image.open(mask_path).convert("L")  # Grayscale
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danie\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3247, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:/Users/danie/OneDrive/Desktop/INM705\x07rchive/Montgomery/MontgomerySet/masks\\MCUCXR_0023_0_left.png'
