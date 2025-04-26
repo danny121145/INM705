@@ -8,7 +8,7 @@ from model import load_model
 import cv2
 
 # Config 
-image_path = "archive/Montgomery/MontgomerySet/CXR_png/MCUCXR_0194_1.png"  # test image
+image_path = "archive/Montgomery/MontgomerySet/CXR_png/MCUCXR_0001_0.png"  # test image
 checkpoint_path = "checkpoints/unet_best.pth"
 output_path = "inference_output/predicted_mask.png"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
