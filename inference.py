@@ -8,8 +8,8 @@ from model import load_model
 import cv2
 
 # Config 
-image_path = "archive/Montgomery/MontgomerySet/CXR_png/MCUCXR_0057_0.png"  # test image
-checkpoint_path = "checkpoints/unet_final.pth"
+image_path = "archive/Montgomery/MontgomerySet/CXR_png/MCUCXR_0194_1.png"  # test image
+checkpoint_path = "checkpoints/unet_best.pth"
 output_path = "inference_output/predicted_mask.png"
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -32,9 +32,17 @@ dummy_mask = np.zeros((raw_img.height, raw_img.width), dtype=np.uint8)  # match 
 preprocessed = get_transforms(train=False)(image=np.array(raw_img), mask=dummy_mask)
 input_tensor = preprocessed["image"].unsqueeze(0).to(device)
 
-# Run inference
+# test-time augumentation (TTA)
 with torch.no_grad():
-    output = model(input_tensor)
+    # normal prediction
+    pred1 = model(input_tensor)
+
+    # horizontal flip prediction
+    flipped_img = torch.flip(input_tensor, dims=[3])
+    pred2 = torch.flip(model(flipped_img), dims=[3])
+
+    # average predictions
+    output = (pred1 + pred2) / 2
     pred_mask = torch.sigmoid(output).squeeze().cpu().numpy()
     binary_mask = (pred_mask > 0.5).astype(np.uint8)
 
@@ -60,9 +68,6 @@ plt.tight_layout()
 plt.savefig(output_path)
 print(f"✅ Saved result to {output_path}")
 plt.show()
-
-# Path to the ground truth mask
-gt_mask_path = "archive/Montgomery/MontgomerySet/masks/MCUCXR_0057_0_mask.png"
 
 # Load predicted mask and ground truth mask
 pred_mask = cv2.imread(output_path, cv2.IMREAD_GRAYSCALE)

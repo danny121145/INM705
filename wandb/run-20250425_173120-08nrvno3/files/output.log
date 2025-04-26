@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "c:\Users\danie\OneDrive\Desktop\INM705\train.py", line 33, in <module>
+    train_loader = DataLoader(train_dataset, batch_size=int(config["training"]["batch_size"]), shuffle=True, num_workers=4)
+                                                            ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'batch_size'

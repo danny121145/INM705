@@ -1,0 +1,7 @@
+Training on 111 images, validating on 27 images.
+Epoch 1/50:   0%|                                           | 0/14 [00:06<?, ?it/s]
+Traceback (most recent call last):
+  File "c:\Users\danie\OneDrive\Desktop\INM705\train.py", line 64, in <module>
+    train_loss += loss.item()
+    ^^^^^^^^^^
+NameError: name 'train_loss' is not defined

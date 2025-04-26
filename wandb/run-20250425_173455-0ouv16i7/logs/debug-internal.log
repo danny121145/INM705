@@ -1,0 +1,21 @@
+{"time":"2025-04-25T17:34:55.8346762+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\danie\\OneDrive\\Desktop\\INM705\\wandb\\run-20250425_173455-0ouv16i7\\logs\\debug-core.log"}
+{"time":"2025-04-25T17:34:55.9438955+01:00","level":"INFO","msg":"created new stream","id":"0ouv16i7"}
+{"time":"2025-04-25T17:34:55.9438955+01:00","level":"INFO","msg":"stream: started","id":"0ouv16i7"}
+{"time":"2025-04-25T17:34:55.9438955+01:00","level":"INFO","msg":"sender: started","stream_id":"0ouv16i7"}
+{"time":"2025-04-25T17:34:55.9438955+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"0ouv16i7"}
+{"time":"2025-04-25T17:34:55.9438955+01:00","level":"INFO","msg":"handler: started","stream_id":"0ouv16i7"}
+{"time":"2025-04-25T17:34:56.237841+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-25T18:49:52.9491719+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-25T18:49:52.9496856+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-25T18:49:53.9671378+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model_final","runtime_seconds":1.0205207,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":0.1571381,"progress":"96.0KB/124.4MB"}]}],"total_operations":1}}
+{"time":"2025-04-25T18:50:54.5708155+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model_final","runtime_seconds":61.6241984,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":60.7608158,"progress":"23.8MB/124.4MB"}]}],"total_operations":1}}
+{"time":"2025-04-25T18:51:55.1401607+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model_final","runtime_seconds":122.1935436,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":121.330161,"progress":"45.6MB/124.4MB"}]}],"total_operations":1}}
+{"time":"2025-04-25T18:52:55.4773438+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model_final","runtime_seconds":182.5307267,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":181.6673441,"progress":"67.2MB/124.4MB"}]}],"total_operations":1}}
+{"time":"2025-04-25T18:53:56.0151355+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model_final","runtime_seconds":243.0685184,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":242.2051358,"progress":"88.9MB/124.4MB"}]}],"total_operations":1}}
+{"time":"2025-04-25T18:54:56.57929+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact lung_model_final","runtime_seconds":303.6326729,"subtasks":[{"desc":"unet_final.pth","runtime_seconds":302.7692903,"progress":"110.6MB/124.4MB"}]}],"total_operations":1}}
+{"time":"2025-04-25T18:55:35.5247838+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-25T18:55:36.0305546+01:00","level":"INFO","msg":"stream: closing","id":"0ouv16i7"}
+{"time":"2025-04-25T18:55:36.0305546+01:00","level":"INFO","msg":"handler: closed","stream_id":"0ouv16i7"}
+{"time":"2025-04-25T18:55:36.0310632+01:00","level":"INFO","msg":"sender: closed","stream_id":"0ouv16i7"}
+{"time":"2025-04-25T18:55:36.0305546+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0ouv16i7"}
+{"time":"2025-04-25T18:55:36.0311446+01:00","level":"INFO","msg":"stream: closed","id":"0ouv16i7"}
